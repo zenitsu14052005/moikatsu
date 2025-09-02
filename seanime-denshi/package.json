@@ -1,7 +1,7 @@
 {
-  "name": "seanime-denshi",
+  "name": "moikatsu-denshi",
   "version": "2.10.0",
-  "description": "Electron-based Desktop client for Seanime",
+  "description": "Electron-based Desktop client for moikatsu",
   "main": "src/main.js",
   "scripts": {
     "dev": "NODE_ENV=development electron .",
@@ -23,8 +23,8 @@
     "electron-builder": "^24.13.3"
   },
   "build": {
-    "appId": "app.seanime.denshi",
-    "productName": "Seanime Denshi",
+    "appId": "app.moikatsu.denshi",
+    "productName": "moikatsu Denshi",
     "asar": true,
     "extraResources": [
       {
@@ -35,7 +35,7 @@
     "generateUpdatesFilesForAllChannels": true,
     "publish": {
       "provider": "generic",
-      "url": "https://github.com/5rahim/seanime/releases/latest/download",
+      "url": "https://github.com/5rahim/moikatsu/releases/latest/download",
       "channel": "latest",
       "publishAutoUpdate": true,
       "useMultipleRangeRequest": false
@@ -57,7 +57,7 @@
       "gatekeeperAssess": false,
       "entitlements": "assets/entitlements.mac.plist",
       "entitlementsInherit": "assets/entitlements.mac.plist",
-      "artifactName": "seanime-denshi-${version}_MacOS_${arch}.${ext}"
+      "artifactName": "moikatsu-denshi-${version}_MacOS_${arch}.${ext}"
     },
     "win": {
       "target": [
@@ -68,7 +68,7 @@
           ]
         }
       ],
-      "artifactName": "seanime-denshi-${version}_Windows_${arch}.${ext}"
+      "artifactName": "moikatsu-denshi-${version}_Windows_${arch}.${ext}"
     },
     "linux": {
       "target": [
@@ -81,15 +81,15 @@
         }
       ],
       "category": "Entertainment",
-      "artifactName": "seanime-denshi-${version}_Linux_${arch}.${ext}"
+      "artifactName": "moikatsu-denshi-${version}_Linux_${arch}.${ext}"
     },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "Seanime Denshi",
-      "artifactName": "seanime-denshi-${version}_Windows_${arch}.${ext}"
+      "shortcutName": "moikatsu Denshi",
+      "artifactName": "moikatsu-denshi-${version}_Windows_${arch}.${ext}"
     },
     "directories": {
       "buildResources": "assets",

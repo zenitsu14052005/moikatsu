@@ -1,8 +1,8 @@
 [package]
-name = "seanime-desktop"
+name = "moikatsu-desktop"
 version = "0.1.0"
-description = "Seanime Desktop"
-authors = ["you"]
+description = "moikatsu Desktop"
+authors = ["Arishu"]
 license = ""
 repository = ""
 edition = "2021"
